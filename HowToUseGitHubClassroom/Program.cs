@@ -1,4 +1,6 @@
-﻿namespace HowToUseGitHubClassroom
+﻿using System.Net.Security;
+
+namespace HowToUseGitHubClassroom
 {
     internal class Program
     {
@@ -21,6 +23,11 @@
             // Output to the console the variable
             // Output to the console Hello World
             // Test your program and add the evidence to this repository
+
+            Console.WriteLine("enter your name");
+            string name = Console.ReadLine();
+            Console.WriteLine(name);
+            Console.WriteLine("Hello World");
         }
     }
 }
